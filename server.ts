@@ -106,6 +106,10 @@ Formatting Rules:
     res.json({ status: "ok", app: "Get Cabs Coimbatore AI" });
   });
 
+  // Serve static assets directory
+  app.use("/src/assets", express.static(path.join(process.cwd(), "src/assets")));
+  app.use("/assets", express.static(path.join(process.cwd(), "src/assets")));
+
   // Vite development middleware vs production static server
   if (process.env.NODE_ENV !== "production") {
     const vite = await createViteServer({
