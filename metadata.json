@@ -1,0 +1,8 @@
+{
+  "name": "Remix: Remix: Remix: Get Cabs - Coimbatore Taxi Booking",
+  "description": "Official Get Cabs website featuring Local Rides, Oneway, Outstation, and Hourly Package cab booking in Coimbatore with phone 9894020156.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
